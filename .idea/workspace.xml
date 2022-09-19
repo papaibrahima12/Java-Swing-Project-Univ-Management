@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6c29783f-a585-4b58-9a0e-74b4fe3dd437" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GestionUniversite.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/autre/ButtonDelete.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/autre/ButtonEdit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/autre/ButtonInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/autre/CellCenter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dao/AdminDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dao/DirecteurDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ge/AdminAdd.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ge/AdminEdit.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ge/AdminList.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ge/ButtonInfo.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ge/Connexion.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ge/EleveAdd.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ge/EleveEdit.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ge/EleveList.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ge/Print.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ge/Tbord.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ge/TbordEleve.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/GE-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/ico-delete.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/ico-edit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/Admin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/ChefDepart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/Directeur.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/EDT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/Enseignant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/Etudiant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/Responsable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/Salle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stockage/BD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/AdminAdd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/AdminEdit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/AjouterSalles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/AjouterUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/Connexion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/CreateEDTPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/EDTedit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/GE.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/ListEDTView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/ListUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/ListeEDT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/ListeSalles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/ListeSallesView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/SalleEdit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/Table.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/TbordAdministrateur.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/TbordChefDepart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/TbordDirecteur.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/TbordEnseignant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/TbordEtudiant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/TbordRespoForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/UI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/directeurScolaire/ListeSallesDirect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/directeurScolaire/SalleEditDirect.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2EzLWxH5cEgJUw4nxo9oyeVIB91" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Project.color": "550f0d",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/DELL 5480 COREI7/Downloads/mysql-connector-java-8.0.16.jar",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="GE" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="views.GE" />
+      <module name="GestionUniversite" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="views.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.GE" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6c29783f-a585-4b58-9a0e-74b4fe3dd437" name="Changes" comment="" />
+      <created>1663593502885</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1663593502885</updated>
+      <workItem from="1663593505151" duration="2210000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="uadb@localhost">
+  <database-model serializer="dbm" dbms="MYSQL" family-id="MYSQL" format-version="4.41">
+    <root id="1">
+      <DefaultCasing>lower/lower</DefaultCasing>
+      <DefaultEngine>InnoDB</DefaultEngine>
+      <DefaultTmpEngine>InnoDB</DefaultTmpEngine>
+      <ServerVersion>8.0.29</ServerVersion>
+    </root>
+    <schema id="2" parent="1" name="actualites"/>
+    <schema id="3" parent="1" name="actudb"/>
+    <schema id="4" parent="1" name="annuaire"/>
+    <schema id="5" parent="1" name="blog"/>
+    <schema id="6" parent="1" name="catalogue"/>
+    <schema id="7" parent="1" name="daara"/>
+    <schema id="8" parent="1" name="etudiants"/>
+    <schema id="9" parent="1" name="ferme"/>
+    <schema id="10" parent="1" name="gestionproduit"/>
+    <schema id="11" parent="1" name="information_schema"/>
+    <schema id="12" parent="1" name="laravelauth"/>
+    <schema id="13" parent="1" name="memba"/>
+    <schema id="14" parent="1" name="myblog"/>
+    <schema id="15" parent="1" name="mydb"/>
+    <schema id="16" parent="1" name="mysql"/>
+    <schema id="17" parent="1" name="performance_schema"/>
+    <schema id="18" parent="1" name="rmidb"/>
+    <schema id="19" parent="1" name="sakila"/>
+    <schema id="20" parent="1" name="senactusn"/>
+    <schema id="21" parent="1" name="seninfos"/>
+    <schema id="22" parent="1" name="simeds"/>
+    <schema id="23" parent="1" name="sys"/>
+    <schema id="24" parent="1" name="tokenapiauth"/>
+    <schema id="25" parent="1" name="uadb">
+      <Current>1</Current>
+    </schema>
+    <schema id="26" parent="1" name="world"/>
+    <schema id="27" parent="1" name="xml"/>
+    <table id="28" parent="25" name="salles">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_0900_ai_ci</CollationName>
+    </table>
+    <table id="29" parent="25" name="seances">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_0900_ai_ci</CollationName>
+    </table>
+    <table id="30" parent="25" name="users">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_0900_ai_ci</CollationName>
+    </table>
+    <column id="31" parent="28" name="id">
+      <AutoIncrement>18</AutoIncrement>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="32" parent="28" name="nom">
+      <DataType>varchar(100)|0s</DataType>
+      <Position>2</Position>
+    </column>
+    <column id="33" parent="28" name="haveProjector">
+      <DataType>varchar(100)|0s</DataType>
+      <Position>3</Position>
+    </column>
+    <column id="34" parent="28" name="capacity">
+      <DataType>int|0s</DataType>
+      <Position>4</Position>
+    </column>
+    <column id="35" parent="28" name="isBusy">
+      <DataType>varchar(100)|0s</DataType>
+      <Position>5</Position>
+    </column>
+    <column id="36" parent="28" name="type">
+      <DataType>varchar(30)|0s</DataType>
+      <Position>6</Position>
+    </column>
+    <column id="37" parent="28" name="accesHandic">
+      <DataType>varchar(100)|0s</DataType>
+      <Position>7</Position>
+    </column>
+    <index id="38" parent="28" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="39" parent="28" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="40" parent="29" name="id">
+      <AutoIncrement>11</AutoIncrement>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="41" parent="29" name="titreCours">
+      <DataType>varchar(30)|0s</DataType>
+      <Position>2</Position>
+    </column>
+    <column id="42" parent="29" name="duree">
+      <DataType>varchar(30)|0s</DataType>
+      <Position>3</Position>
+    </column>
+    <column id="43" parent="29" name="jour">
+      <DataType>varchar(30)|0s</DataType>
+      <Position>4</Position>
+    </column>
+    <column id="44" parent="29" name="salle">
+      <DataType>varchar(30)|0s</DataType>
+      <Position>5</Position>
+    </column>
+    <column id="45" parent="29" name="classe">
+      <DataType>varchar(30)|0s</DataType>
+      <Position>6</Position>
+    </column>
+    <column id="46" parent="29" name="heureDebut">
+      <DataType>varchar(30)|0s</DataType>
+      <Position>7</Position>
+    </column>
+    <column id="47" parent="29" name="heureFin">
+      <DataType>varchar(30)|0s</DataType>
+      <Position>8</Position>
+    </column>
+    <column id="48" parent="29" name="prof">
+      <DataType>varchar(30)|0s</DataType>
+      <Position>9</Position>
+    </column>
+    <column id="49" parent="29" name="type">
+      <DataType>varchar(50)|0s</DataType>
+      <Position>10</Position>
+    </column>
+    <index id="50" parent="29" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="51" parent="29" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="52" parent="30" name="id">
+      <AutoIncrement>12</AutoIncrement>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="53" parent="30" name="nom">
+      <DataType>varchar(30)|0s</DataType>
+      <Position>2</Position>
+    </column>
+    <column id="54" parent="30" name="prenom">
+      <DataType>varchar(30)|0s</DataType>
+      <Position>3</Position>
+    </column>
+    <column id="55" parent="30" name="login">
+      <DataType>varchar(30)|0s</DataType>
+      <Position>4</Position>
+    </column>
+    <column id="56" parent="30" name="role">
+      <DataType>varchar(30)|0s</DataType>
+      <Position>5</Position>
+    </column>
+    <column id="57" parent="30" name="telephone">
+      <DataType>int|0s</DataType>
+      <Position>6</Position>
+    </column>
+    <column id="58" parent="30" name="password">
+      <DataType>text|0s</DataType>
+      <Position>7</Position>
+    </column>
+    <index id="59" parent="30" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="60" parent="30" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+  </database-model>
+</dataSource>
