@@ -1,0 +1,3 @@
+# GestionUniversite
+This is an java swing application i develop for university management, with multiples functions sach as : creating plannings, creating classrooms, reserve classrooms for department boss,...
+You can take a look at it for more informations
